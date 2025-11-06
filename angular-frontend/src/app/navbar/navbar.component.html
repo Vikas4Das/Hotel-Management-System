@@ -1,0 +1,20 @@
+<nav>
+  <div class="brand">
+    <a href="/home">HotelEase</a>
+  </div>
+  <ul>
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/rooms" routerLinkActive="active">Rooms</a></li>
+    <li><a routerLink="/find-booking" routerLinkActive="active">Find Booking</a></li>
+
+    <li *ngIf="isCustomer"><a routerLink="/profile" routerLinkActive="active">Profile</a></li>
+    <li *ngIf="isAdmin"><a routerLink="/admin" routerLinkActive="active">Admin</a></li>
+
+    
+    <li *ngIf="!isAuthenticated"><a routerLink="/login" routerLinkActive="active">Login</a></li>
+    <li *ngIf="!isAuthenticated"><a routerLink="/register" routerLinkActive="active">Register</a></li>
+
+
+    <li *ngIf="isAuthenticated" (click)="handleLogout()">Logout</li>
+  </ul>
+</nav>

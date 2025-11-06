@@ -1,0 +1,72 @@
+<div class="home">
+    <!-- HEADER SECTION -->
+    <header>
+      <img src="https://media.istockphoto.com/id/636484522/photo/hotel-resort-swimming-pool.webp?a=1&b=1&s=612x612&w=0&k=20&c=7x0HtzD6y0vREFvkFnu1MtYWkIovfIqRtc6mCVOy5Gw=" alt="Hotel" />
+      <div class="overlay"></div>
+      <div class="overlay-content">
+        <h1>Welcome to <span class="color">HotelEase</span></h1>
+        <h3>Step into a haven of comfort and care</h3>
+      </div>
+    </header>
+  
+    <!-- Room Search Component -->
+    <app-roomsearch
+      (searchResults)="handleSearchResult($event)"
+    ></app-roomsearch>
+  
+    <!-- Room Result Component -->
+  
+    <app-roomresult [roomSearchResults]="searchResults"></app-roomresult>
+  
+    <h4><a class="rooms" href="/rooms">All Rooms</a></h4>
+  
+    <!-- Services Section -->
+    <h2>Services at <span class="color">HotelEase</span></h2>
+  
+    <section>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Air Conditioning" />
+        <div class="details">
+          <h3 class="title">Air Conditioning</h3>
+          <p class="description">
+            Stay cool and comfortable throughout your stay with our individually
+            controlled in-room air conditioning.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhcnxlbnwwfHwwfHx8MA==&auto=format&fit=crop&q=60&w=600" alt="Mini Bar" />
+        <div class="details">
+          <h3 class="title">Mini Bar</h3>
+          <p class="description">
+            Enjoy a convenient selection of beverages and snacks stocked in your
+            room's mini bar with no additional cost.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1590674899484-d5640e854abe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFya2luZ3xlbnwwfHwwfHx8MA==&auto=format&fit=crop&q=60&w=600" alt="Parking" />
+        <div class="details">
+          <h3 class="title">Parking</h3>
+          <p class="description">
+            We offer on-site parking for your convenience. Please inquire about
+            valet parking options if available.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1645725677294-ed0843b97d5c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lmaXxlbnwwfHwwfHx8MA==&auto=format&fit=crop&q=60&w=600" alt="WiFi" />
+        <div class="details">
+          <h3 class="title">WiFi</h3>
+          <p class="description">
+            Stay connected throughout your stay with complimentary high-speed
+            Wi-Fi access available in all guest rooms and public areas.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  
