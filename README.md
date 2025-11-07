@@ -102,14 +102,7 @@ mvn spring-boot:run
     </ul>
   </div>
 
-  <div class="section">
-    <h2>👥 Contributors</h2>
-    <ul>
-      <li><strong>Vikas Das</strong> – Project Lead & Developer</li>
-      <li><strong>Shrabanee04</strong> – Frontend Development</li>
-      <li><strong>Dixita-05</strong> – Backend & API Integration</li>
-    </ul>
-  </div>
+
 
   <div class="section">
     <h2>📚 License & Resources</h2>
