@@ -3,62 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Management System - README</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background-color: #f5f6fa;
-      color: #2f3640;
-      margin: 40px;
-      line-height: 1.7;
-    }
-    h1, h2, h3 {
-      color: #273c75;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-    .section {
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      padding: 25px 30px;
-      margin-bottom: 25px;
-    }
-    code {
-      background: #f1f2f6;
-      padding: 3px 6px;
-      border-radius: 4px;
-      color: #e84118;
-      font-weight: bold;
-    }
-    pre {
-      background: #f1f2f6;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    ul {
-      margin-left: 25px;
-    }
-    .footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #718093;
-      margin-top: 50px;
-    }
-    .badge {
-      display: inline-block;
-      background-color: #44bd32;
-      color: white;
-      padding: 3px 10px;
-      border-radius: 5px;
-      font-size: 0.85em;
-      margin-right: 8px;
-    }
-  </style>
+ 
 </head>
 <body>
 
