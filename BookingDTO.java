@@ -40,9 +40,10 @@ public class BookingDTO {
     private LocalDate checkOutDate;
 
     private BigDecimal totalPrice;
-    private String bookingReference;
+    
     private LocalDate cratedAt;
 
 
     private BookingStatus bookingStatus;
 }
+
